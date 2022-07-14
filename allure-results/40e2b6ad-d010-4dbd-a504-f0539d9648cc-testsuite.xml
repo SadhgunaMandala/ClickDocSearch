@@ -1,0 +1,145 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657646197725' stop='1657646197768'>
+    <name>The CLICKDOC Website: As a user, I can search for any doctor</name>
+    <title>The CLICKDOC Website: As a user, I can search for any doctor</title>
+    <test-cases>
+        <test-case start='1657646197727' status='passed' stop='1657646197729'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657646197730' status='broken' stop='1657646197732'>
+            <name>Given I am on clickdoc page "https://demo.clickdoc.de/cd-de/"</name>
+            <title>Given I am on clickdoc page "https://demo.clickdoc.de/cd-de/"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I am on clickdoc page "https://demo.clickdoc.de/cd-de/"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I am on clickdoc page "https://demo.clickdoc.de/cd-de/"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Sadhguna\Desktop\WebdriverioCucumberTS\features\search.feature):1:1
+                	at Scenario(As a user, I can search for any doctor):3:5
+                	at Step(I am on clickdoc page "https://demo.clickdoc.de/cd-de/"):5:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657646197732' status='broken' stop='1657646197761'>
+            <name>When I click on doctor search button</name>
+            <title>When I click on doctor search button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click on doctor search button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click on doctor search button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Sadhguna\Desktop\WebdriverioCucumberTS\features\search.feature):1:1
+                	at Scenario(As a user, I can search for any doctor):3:5
+                	at Step(I click on doctor search button):6:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657646197762' status='broken' stop='1657646197763'>
+            <name>And I search with Peter Test on doctors search bar</name>
+            <title>And I search with Peter Test on doctors search bar</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I search with Peter Test on doctors search bar" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I search with Peter Test on doctors search bar" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Sadhguna\Desktop\WebdriverioCucumberTS\features\search.feature):1:1
+                	at Scenario(As a user, I can search for any doctor):3:5
+                	at Step(I search with &lt;doctorname> on doctors search bar):7:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657646197763' status='broken' stop='1657646197764'>
+            <name>And I click on find button</name>
+            <title>And I click on find button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click on find button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click on find button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Sadhguna\Desktop\WebdriverioCucumberTS\features\search.feature):1:1
+                	at Scenario(As a user, I can search for any doctor):3:5
+                	at Step(I click on find button):8:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657646197765' status='broken' stop='1657646197765'>
+            <name>Then I can validate two results Dr.Peter Test and Dr.Peter Test ABD</name>
+            <title>Then I can validate two results Dr.Peter Test and Dr.Peter Test ABD</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I can validate two results Dr.Peter Test and Dr.Peter Test ABD" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I can validate two results Dr.Peter Test and Dr.Peter Test ABD" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Sadhguna\Desktop\WebdriverioCucumberTS\features\search.feature):1:1
+                	at Scenario(As a user, I can search for any doctor):3:5
+                	at Step(I can validate two results &lt;firstresult> and &lt;secondresult>):9:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657646197766' status='passed' stop='1657646197767'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
